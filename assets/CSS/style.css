@@ -90,7 +90,7 @@ footer{
 }
 
 .nav-left, .nav-center, .icons{
-  margin: 10px;
+  margin: 0 10px;
 }
 
 .nav-right{
@@ -101,4 +101,8 @@ footer{
   color: red;
   background-color: #4A4A4A;
   cursor: pointer;
+}
+
+.active{
+  color: #4CC800;
 }
