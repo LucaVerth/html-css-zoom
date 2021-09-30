@@ -16,7 +16,6 @@ header{
   display: flex;
   justify-content: flex-end;
   height: 50px;
-  /* background-color: red; */
 }
 
 .head-buttons{
@@ -35,7 +34,6 @@ header{
 
 /* MAIN */
 main{
-  width: 100vw;
   height: calc(100vh - 130px);
   overflow: auto;
 }
@@ -66,5 +64,41 @@ footer{
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  background-color: green;
+  background-color: #222222;
+}
+
+.chev{
+  font-size: 10px;
+  margin: 0 10px;
+}
+
+.nav-left, .nav-center{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-left, .nav-center, .icons i{
+  font-size: 30px;
+}
+
+.nav-left, .nav-center, .icons p{
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.nav-left, .nav-center, .icons{
+  margin: 10px;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 20px;
+  color: red;
+  background-color: #4A4A4A;
+  cursor: pointer;
 }
