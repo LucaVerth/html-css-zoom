@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/*  TUTTE LE ALTEZZE ED I VALORI DA SISTEMARE */
+
+/* HEADER */
+header{
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  /* background-color: red; */
+}
+
+.head-buttons{
+  gap: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.head-buttons span{
+  padding: 5px;
+  background-color: grey;
+  color: #fff  ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* MAIN */
+main{
+  height: calc(100vh - 130px);
+  background-color: red;
+  overflow: auto;
+}
+
+/* FOOTER */
+footer{
+  width: 100vw;
+  height: 80px;
+  background-color: green;
+}
