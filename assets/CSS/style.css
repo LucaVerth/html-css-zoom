@@ -28,21 +28,43 @@ header{
 .head-buttons span{
   padding: 5px;
   background-color: grey;
-  color: #fff  ;
+  color: #fff;
   border-radius: 5px;
   cursor: pointer;
 }
 
 /* MAIN */
 main{
+  width: 100vw;
   height: calc(100vh - 130px);
-  background-color: red;
   overflow: auto;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 20px;
+}
+
+.main-container .webcams{
+  position: relative;
+}
+
+.name-mic{
+  position: absolute;
+  bottom: 4px;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
 }
 
 /* FOOTER */
 footer{
-  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 80px;
   background-color: green;
 }
